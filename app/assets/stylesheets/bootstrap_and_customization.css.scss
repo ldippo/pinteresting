@@ -1,7 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+$navbar-height: 45px;
 $body-bg:  #34495e;
 $navbar-inverse-bg: #2c3e50;
 $navbar-inverse-link-color: #efefef;
 $brand-primary: #f1c40f;
 $jumbotron-bg: #7f8c8d;
 $jumbotron-color: #efefef;
+$font-family-sans-serif:	'Englebert', sans-serif;
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+.navbar-brand {
+	font-weight: bold;
+}
