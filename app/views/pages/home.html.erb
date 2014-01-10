@@ -1,5 +1,11 @@
 <div class="jumbotron center">
 	<h1>Lyles App</h1>
-	<p>Click here to <%= link_to "Log In", "#", class: "btn btn-primary btn-lg" %></p>
-
+	 	<% if user_signed_in? %>
+         Whatsup dawg!? <bR>Welcome to my app!
+     	<% else %>
+			<p>
+				<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %> OR
+				<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg"  %> 
+			</p>
+<% end %>
 </div>
