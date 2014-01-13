@@ -7,6 +7,8 @@ gem 'rails', '4.0.2'
 
 #devise
 gem 'devise', '~> 3.1.0.rc2'
+#paperclip
+gem 'paperclip', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
